@@ -13,58 +13,58 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
 
 ### Data Structures
 
-#### Advanced Data Structures
-
-  - Segment_Trees.cpp - ❌ 
-  - Fenwick_Trees_(Binary_Indexed_Trees).cpp - ❌ 
-  - B-Trees.cpp - ❌ 
-#### Advanced Topics
-
-  - Red-Black_Trees.cpp - ❌ 
-  - Splay_Trees.cpp - ❌ 
-  - Bloom_Filters.cpp - ❌ 
-  - Skip_Lists.cpp - ❌ 
-
-#### Arrays and Strings
-
-  - Basic_array_operations.cpp - ❌ 
-  - String_manipulation.cpp - ❌ 
-#### Linked Lists
-
-  - Singly_Linked_Lists.cpp - ❌ 
-  - Doubly_Linked_Lists.cpp - ❌ 
-  - Circular_Linked_Lists.cpp - ❌ 
-#### Stacks and Queues
-
-  - Basic_operations.cpp - ❌ 
-  - Implementations_using_arrays_and_linked_lists.cpp - ❌ 
-#### Trees
-
-  - Binary_Trees.cpp - ❌ 
-  - Binary_Search_Trees_(BST).cpp - ❌ 
-  - AVL_Trees.cpp - ❌ 
-  - Heap_(Binary_Heap,_Priority_Queue).cpp - ❌ 
-#### Hashing
-
-  - Hash_tables.cpp - ❌ 
-  - Collision_resolution_techniques.cpp - ❌ 
-#### Graphs
-
-  - Adjacency_Matrix_and_Adjacency_List_representations.cpp - ❌ 
-  - Graph_Traversal_(DFS,_BFS).cpp - ❌ 
-#### Hash Maps
-
-  - Implementations_and_use_cases.cpp - ❌ 
-#### Trie
-
-  - Basic_Trie_operations.cpp - ❌ 
-#### Priority Queues
-
-  - Basic_operations.cpp - ❌ 
-  - Binary_Heap_implementation.cpp - ❌ 
-#### Disjoint Set (Union-Find)
-
-  - Union_and_Find_operations.cpp - ❌ 
+  #### Advanced Data Structures
+  
+    - Segment_Trees.cpp - ❌ 
+    - Fenwick_Trees_(Binary_Indexed_Trees).cpp - ❌ 
+    - B-Trees.cpp - ❌ 
+  #### Advanced Topics
+  
+    - Red-Black_Trees.cpp - ❌ 
+    - Splay_Trees.cpp - ❌ 
+    - Bloom_Filters.cpp - ❌ 
+    - Skip_Lists.cpp - ❌ 
+  
+  #### Arrays and Strings
+  
+    - Basic_array_operations.cpp - ❌ 
+    - String_manipulation.cpp - ❌ 
+  #### Linked Lists
+  
+    - Singly_Linked_Lists.cpp - ❌ 
+    - Doubly_Linked_Lists.cpp - ❌ 
+    - Circular_Linked_Lists.cpp - ❌ 
+  #### Stacks and Queues
+  
+    - Basic_operations.cpp - ❌ 
+    - Implementations_using_arrays_and_linked_lists.cpp - ❌ 
+  #### Trees
+  
+    - Binary_Trees.cpp - ❌ 
+    - Binary_Search_Trees_(BST).cpp - ❌ 
+    - AVL_Trees.cpp - ❌ 
+    - Heap_(Binary_Heap,_Priority_Queue).cpp - ❌ 
+  #### Hashing
+  
+    - Hash_tables.cpp - ❌ 
+    - Collision_resolution_techniques.cpp - ❌ 
+  #### Graphs
+  
+    - Adjacency_Matrix_and_Adjacency_List_representations.cpp - ❌ 
+    - Graph_Traversal_(DFS,_BFS).cpp - ❌ 
+  #### Hash Maps
+  
+    - Implementations_and_use_cases.cpp - ❌ 
+  #### Trie
+  
+    - Basic_Trie_operations.cpp - ❌ 
+  #### Priority Queues
+  
+    - Basic_operations.cpp - ❌ 
+    - Binary_Heap_implementation.cpp - ❌ 
+  #### Disjoint Set (Union-Find)
+  
+    - Union_and_Find_operations.cpp - ❌ 
 
 ### Divide and Conquer
 
