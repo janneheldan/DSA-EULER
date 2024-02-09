@@ -111,14 +111,14 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
 
 ### Searching Algorithms
 
-  - Linear_Search.cpp - ❌ 
-  - Binary_Search.cpp - ❌ 
+  - Linear_Search.cpp - ✅ 
+  - Binary_Search.cpp - ✅ 
 
 ***
 
 ### Sorting Algorithms
 
-  - Bubble_Sort.cpp - ❌ 
+  - Bubble_Sort.cpp - ✅ 
   - Selection_Sort.cpp - ❌ 
   - Insertion_Sort.cpp - ❌ 
   - Merge_Sort.cpp - ❌ 
