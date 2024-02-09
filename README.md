@@ -11,17 +11,17 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
 
 ### Sorting Algorithms
 
-- [ ] Bubble Sort
+- [X] Bubble Sort
 - [ ] Selection Sort
 - [ ] Insertion Sort
 - [ ] Merge Sort
-- [ ] Quick Sort
+- [X] Quick Sort
 - [ ] Heap Sort
 
 ### Searching Algorithms
 
-- [ ] Linear Search
-- [ ] Binary Search
+- [X] Linear Search
+- [X] Binary Search
 - [ ] Depth-First Search (DFS)
 - [ ] Breadth-First Search (BFS)
 
