@@ -1,3 +1,6 @@
-# Linear Search
+#include <iostream>
 
-Description for Linear Search.
+
+int main() {
+    std::cout << "Hello wordl";
+}
