@@ -2,6 +2,8 @@
 
 Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implementations of Data Structures and Algorithms (DSA) alongside solutions to Project Euler challenges, all crafted with the power of C++.
 
+***
+
 ### Project Euler challenges
   - CH1 - ✅
 
@@ -12,6 +14,8 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
   - N-Queens_Problem.cpp - ❌ 
   - Sudoku_Solver.cpp - ❌ 
   - Subset_Sum.cpp - ❌ 
+
+***
 
 ### Data Structures
 
@@ -68,17 +72,23 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
 
   - Union_and_Find_operations.cpp - ❌ 
 
+***
+
 ### Divide and Conquer
 
   - Binary_Search.cpp - ❌ 
   - Merge_Sort.cpp - ❌ 
   - Quick_Sort.cpp - ❌ 
 
+***
+
 ### Dynamic Programming
 
   - Fibonacci_sequence.cpp - ❌ 
   - Longest_Common_Subsequence.cpp - ❌ 
   - Knapsack_Problem.cpp - ❌ 
+
+***
 
 ### Graph Algorithms
 
@@ -89,16 +99,22 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
   - Kruskal's_Algorithm.cpp - ❌ 
   - Prim's_Algorithm.cpp - ❌ 
 
+***
+
 ### Greedy Algorithms
 
   - Activity_Selection.cpp - ❌ 
   - Huffman_Coding.cpp - ❌ 
   - Dijkstra's_Algorithm.cpp - ❌ 
 
+***
+
 ### Searching Algorithms
 
   - Linear_Search.cpp - ❌ 
   - Binary_Search.cpp - ❌ 
+
+***
 
 ### Sorting Algorithms
 
@@ -108,6 +124,8 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
   - Merge_Sort.cpp - ❌ 
   - Quick_Sort.cpp - ❌ 
   - Heap_Sort.cpp - ❌ 
+
+***
 
 ### String Matching Algorithms
 
