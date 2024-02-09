@@ -5,7 +5,10 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
 ## Project Euler Challenges
 - [X] CH1
 - [X] CH2
-- [ ] CH3
+- [X] CH3
+- [X] CH4
+- [ ] CH5
+- [ ] CH6
 
 ## Algorithms
 
