@@ -2,7 +2,16 @@
 
 using namespace std;
 
+struct node
+{
+	int data;
+	struct node *next;
+};
+
+
+
 int main() {
-	// Your C++ code here
+	
+
 	return 0;
 }
