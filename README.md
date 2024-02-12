@@ -3,16 +3,7 @@
 Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implementations of Data Structures and Algorithms (DSA) alongside solutions to Project Euler challenges, all crafted with the power of C++. 
 
 ## Project Euler Challenges
-- [x] CH1   [ ] CH11
-- [x] CH2   [ ] CH12
-- [x] CH3   [ ] CH13
-- [x] CH4   [ ] CH14
-- [ ] CH5   [ ] CH15
-- [ ] CH6   [ ] CH16
-- [ ] CH7   [ ] CH17
-- [ ] CH8   [ ] CH18
-- [ ] CH9   [ ] CH19
-- [ ] CH10  [ ] CH20
+[X]CH1 [X] CH11
 
 ## Algorithms
 
@@ -20,7 +11,7 @@ Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implemen
 
 - [X] Bubble Sort
 - [ ] Selection Sort
-- [ ] Insertion Sort
+- [X] Insertion Sort
 - [ ] Merge Sort
 - [X] Quick Sort
 - [ ] Heap Sort
