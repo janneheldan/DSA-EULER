@@ -3,7 +3,13 @@
 Welcome to the DSA & Euler Challenges repository! 🚀 Here, I share my implementations of Data Structures and Algorithms (DSA) alongside solutions to Project Euler challenges, all crafted with the power of C++. 
 
 ## Project Euler Challenges
-[X]CH1 [X] CH11
+- [X] CH1
+- [X] CH2
+- [X] CH3
+- [X] CH4
+- [ ] CH5
+- [ ] CH6
+- [ ] CH7
 
 ## Algorithms
 
