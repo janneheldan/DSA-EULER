@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @brief 
+ * @brief Generic quick sort algorithms 
  * 
  * @tparam T (generic type) 
  * @param arr (array of type T)
