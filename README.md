@@ -3,7 +3,9 @@
 Welcome to the DSA & Euler Challenges repository! Here, I share my implementations of Data Structures and Algorithms (DSA) alongside solutions to Project Euler challenges, all crafted with Java.
 
 ## Project Euler Challenges
-- [ ] CH1
+- [X] CH1
+- [X] CH2
+- [ ] CH3
 
 ## Algorithms
 
