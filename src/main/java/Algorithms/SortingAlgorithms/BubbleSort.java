@@ -1,42 +1,51 @@
 package Algorithms.SortingAlgorithms;
-// BubbleSort.java
 
+/*
+ * Bubble sort
+ */
 public class BubbleSort {
+	/*
+	 * Swaps the elements at the given indices
+	 */
+	private static <T> void swap(T[] array, int index1, int index2) {
+		T hold = array[index1];
+		array[index1] = array[index2];
+		array[index2] = hold;
+	}
 
-	public static void bubbleSort(int[] arr) {
-		int n = arr.length;
-		for (int i = 0; i < n-1; i++) {
-			for (int j = 0; j < n-i-1; j++) {
-				if (arr[j] > arr[j+1]) {
-					// swap arr[j] and arr[j+1]
-					int temp = arr[j];
-					arr[j] = arr[j+1];
-					arr[j+1] = temp;
+	/**
+	 * Bubble sort algorithm
+	 * @param <T> generic type
+	 * @param arr array to be sorted
+	 * @return sorted array
+	 */
+	public <T extends Comparable<T>> T[] sort(T[] arr) {
+		if (arr.length == 0) {
+			return arr;
+		}
+
+		boolean swapped;
+		for (int i = 0; i < arr.length - 1; i++) {
+			swapped = false;
+			for (int j = 0; j < arr.length - i - 1; j++) {
+				if (arr[j].compareTo(arr[j + 1]) > 0) {
+					swap(arr, j, j + 1);
+					swapped = true;
 				}
 			}
+			if (!swapped) {
+				break;
+			}
 		}
+		return arr;
 	}
-
-	public static void printArray(int[] arr) {
-		int n = arr.length;
-		for (int i = 0; i < n; i++) {
-			System.out.print(arr[i] + " ");
-		}
-		System.out.println();
-	}
-
-
 
 	public static void main(String[] args) {
-		int[] arr = {64, 34, 25, 12, 22, 11, 90};
-		System.out.println("Unsorted array");
-		printArray(arr);
-		bubbleSort(arr);
-		System.out.println("Sorted array");
-
+		BubbleSort bubbleSort = new BubbleSort();
+		Integer[] arr = {5, 4, 3, 2, 1, 0};
+		Integer[] sorted = bubbleSort.sort(arr);
+		for (int i = 0; i < sorted.length; i++) {
+			System.out.print(sorted[i] + " ");
+		}
 	}
 }
-
-
-
-

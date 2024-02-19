@@ -9,7 +9,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 
 ### Sorting Algorithms
 
-- [ ] BubbleSort
+- [X] BubbleSort - (Tested)
 - [ ] SelectionSort
 - [ ] InsertionSort
 - [ ] MergeSort
@@ -20,7 +20,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 ### Searching Algorithms
 
 - [X] LinearSearch - (Tested)
-- [ ] BinarySearch
+- [X] BinarySearch - (Tested)
 - [ ] DFS - Depth First Search
 - [ ] BFS - Breadth First Search
 

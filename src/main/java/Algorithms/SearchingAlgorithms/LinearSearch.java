@@ -7,7 +7,7 @@ import java.util.Objects; // Add the missing import statement
  */
 public class LinearSearch {
 	/**
-	 * 
+	 * Linear search
 	 * @param <T> type is generic 
 	 * @param array the array to be searched
 	 * @param target the target to be searched
