@@ -1,144 +1,149 @@
-# DSA & Euler challenges
+# Algorithms and Data Structures
 
-Welcome to the DSA & Euler Challenges repository! Here, I share my implementations of Data Structures and Algorithms (DSA) alongside solutions to Project Euler challenges, all crafted with C++. 
+Welcome to the DSA & Euler Challenges repository! Here, I share my implementations of Data Structures and Algorithms (DSA) alongside solutions to Project Euler challenges, all crafted with Java.
 
 ## Project Euler Challenges
-- [X] CH1
-- [X] CH2
-- [X] CH3
-- [X] CH4
-- [ ] CH5
-- [ ] CH6
-- [ ] CH7
+- [ ] CH1
 
 ## Algorithms
 
 ### Sorting Algorithms
 
-- [X] Bubble Sort
-- [ ] Selection Sort
-- [X] Insertion Sort
-- [ ] Merge Sort
-- [X] Quick Sort
-- [ ] Heap Sort
+- [ ] BubbleSort
+- [ ] SelectionSort
+- [ ] InsertionSort
+- [ ] MergeSort
+- [ ] QuickSort
+- [ ] HeapSort
+- [ ] RadixSort
 
 ### Searching Algorithms
 
-- [X] Linear Search
-- [X] Binary Search
-- [ ] Depth-First Search (DFS)
-- [ ] Breadth-First Search (BFS)
+- [X] LinearSearch - (Tested)
+- [ ] BinarySearch
+- [ ] DFS - Depth First Search
+- [ ] BFS - Breadth First Search
 
 ### Graph Algorithms
 
-- [ ] Dijkstra's Algorithm
-- [ ] Kruskal's Algorithm
-- [ ] Prim's Algorithm
-- [ ] Bellman-Ford Algorithm
+- [ ] Dijkstra
+- [ ] BellmanFord
+- [ ] Kruskal
+- [ ] Prim
+- [ ] FloydWarshall
 
 ### Dynamic Programming
 
-- [ ] Fibonacci Sequence (Dynamic Programming)
-- [ ] Longest Common Subsequence (LCS)
-- [ ] Knapsack Problem
-- [ ] Coin Change Problem
+- [ ] FibonacciDP
+- [ ] LongestCommonSubsequence
+- [ ] Knapsack
+- [ ] CoinChange
 
-### String Matching
+### String Algorithms
 
-- [ ] Naive String Matching
-- [ ] Knuth-Morris-Pratt (KMP) Algorithm
+- [ ] PatternMatching
+- [ ] LongestCommonPrefix
+- [ ] EditDistance
 
 ### Divide and Conquer
 
-- [ ] Closest Pair of Points
-- [ ] Strassen's Matrix Multiplication
+- [ ] ClosestPair
+- [ ] StrassenMatrixMultiplication
 
 ### Greedy Algorithms
 
-- [ ] Greedy Coin Change
-- [ ] Huffman Coding
-- [ ] Activity Selection Problem
+- [ ] FractionalKnapsack
+- [ ] HuffmanCoding
+- [ ] JobScheduling
 
-### Number Theory
+### Backtracking
 
-- [ ] Euclidean Algorithm (GCD)
-- [ ] Sieve of Eratosthenes (Prime Numbers)
-
-### Hashing
-
-- [ ] Hash Table
-- [ ] Open Addressing
-- [ ] Double Hashing
-
-### Machine Learning and Optimization
-
-- [ ] Linear Regression
-- [ ] K-Means Clustering
-- [ ] Genetic Algorithm
-
-### Computational Geometry
-
-- [ ] Convex Hull
-- [ ] Line Sweep Algorithm
-
-### Network Flow
-
-- [ ] Ford-Fulkerson Algorithm
-- [ ] Max Flow - Min Cut
+- [ ] NQueens
+- [ ] SudokuSolver
 
 ### Randomized Algorithms
 
-- [ ] Randomized Quick Sort
-- [ ] Monte Carlo Algorithm
-- [ ] Las Vegas Algorithm
+- [ ] RandomizedQuickSort
+- [ ] MonteCarlo
+
+### Computational Geometry
+
+- [ ] ConvexHull
+- [ ] LineSweep
+
+### Network Flow
+
+- [ ] FordFulkerson
+- [ ] MaxFlow
+
+### Number Theory
+
+- [ ] SieveOfEratosthenes
+- [ ] EuclideanAlgorithm
+- [ ] FastExponentiation
+- [ ] PrimalityTesting
 
 ## Data Structures
 
 ### Arrays
 
-- [ ] Static Array
-- [ ] Dynamic Array
+- [ ] StaticArray
+- [ ] DynamicArray
 
-### Linked Structures
+### Linked Lists
 
-- [ ] Linked List
-- [ ] Doubly Linked List
-- [ ] Circular Linked List
+- [ ] SinglyLinkedList
+- [ ] DoublyLinkedList
+- [ ] CircularLinkedList
 
 ### Stacks and Queues
 
 - [ ] Stack
 - [ ] Queue
-- [ ] Dequeue (Double-ended Queue)
+- [ ] PriorityQueue
 
 ### Trees
 
-- [ ] Binary Tree
-- [ ] Binary Search Tree (BST)
-- [ ] AVL Tree
-- [ ] Red-Black Tree
-- [ ] B-Tree
-- [ ] Trie
+- [ ] BinaryTree
+- [ ] BinarySearchTree
+- [ ] AVLTree
+- [ ] RedBlackTree
 
 ### Heaps
 
-- [ ] Binary Heap
-- [ ] Fibonacci Heap
+- [ ] BinaryHeap
+- [ ] FibonacciHeap
 
 ### Hashing
 
-- [ ] Hash Table
-- [ ] Bloom Filter
+- [ ] HashTable
+- [ ] CollisionResolution
 
 ### Graphs
 
-- [ ] Adjacency Matrix
-- [ ] Adjacency List
-- [ ] Incidence Matrix
+- [ ] AdjacencyMatrix
+- [ ] AdjacencyList
 
 ### Advanced Data Structures
 
-- [ ] Union-Find (Disjoint Set)
-- [ ] Skip List
-- [ ] Splay Tree
+- [ ] Trie
+- [ ] BTree
+- [ ] BPlusTree
 
+### Disjoint Set
+
+- [ ] DisjointSet
+- [ ] UnionFind
+
+### Advanced
+
+- [ ] BloomFilter
+- [ ] SegmentTree
+- [ ] FenwickTree
+- [ ] SuffixArray
+- [ ] TrieTree
+
+### Specialized Data Structures
+
+- [ ] SkipList
+- [ ] LRUCache

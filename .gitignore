@@ -1,13 +1,3 @@
-/.vscode
+.vscode
 
-# Ignore compiled C++ files
-*.out
-*.exe
-*.dll
-*.so
-*.dylib
-*.a
-*.obj
-*.o
-*.lib
-
+/target
