@@ -5,7 +5,6 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 ## Project Euler Challenges
 - [X] CH1
 - [X] CH2
-- [ ] CH3
 
 ## Algorithms
 
@@ -13,7 +12,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 
 - [X] BubbleSort - (Tested)
 - [ ] SelectionSort
-- [ ] InsertionSort
+- [X] InsertionSort - (Tested)
 - [ ] MergeSort
 - [ ] QuickSort
 - [ ] HeapSort

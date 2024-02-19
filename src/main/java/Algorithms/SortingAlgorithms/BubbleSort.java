@@ -39,13 +39,4 @@ public class BubbleSort {
 		}
 		return arr;
 	}
-
-	public static void main(String[] args) {
-		BubbleSort bubbleSort = new BubbleSort();
-		Integer[] arr = {5, 4, 3, 2, 1, 0};
-		Integer[] sorted = bubbleSort.sort(arr);
-		for (int i = 0; i < sorted.length; i++) {
-			System.out.print(sorted[i] + " ");
-		}
-	}
 }
