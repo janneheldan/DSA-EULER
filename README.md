@@ -93,7 +93,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 
 ### Linked Lists
 
-- [ ] SinglyLinkedList
+- [X] SinglyLinkedList - (Tested)
 - [ ] DoublyLinkedList
 - [ ] CircularLinkedList
 
