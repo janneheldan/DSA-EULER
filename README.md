@@ -94,7 +94,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 ### Linked Lists
 
 - [X] SinglyLinkedList - (Tested)
-- [ ] DoublyLinkedList
+- [X] DoublyLinkedList - (No test)
 - [ ] CircularLinkedList
 
 ### Stacks and Queues
