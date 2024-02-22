@@ -99,7 +99,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 
 ### Stacks and Queues
 
-- [ ] Stack
+- [X] Stack - (Tested)
 - [ ] Queue
 - [ ] PriorityQueue
 

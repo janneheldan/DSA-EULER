@@ -1,5 +1,8 @@
 package	DataStructures.StacksandQueues;
 
-public class Queue {
-	// Implement Queue here
+/*
+ * GENERIC QUEUE
+ */
+public class Queue <T> {
+
 }
