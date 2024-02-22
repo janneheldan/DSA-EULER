@@ -14,7 +14,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 - [ ] SelectionSort
 - [X] InsertionSort - (Tested)
 - [X] MergeSort - (Tested)
-- [ ] QuickSort
+- [X] QuickSort - (Tested)
 - [ ] HeapSort
 - [ ] RadixSort
 
