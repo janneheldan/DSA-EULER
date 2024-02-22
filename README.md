@@ -13,7 +13,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 - [X] BubbleSort - (Tested)
 - [ ] SelectionSort
 - [X] InsertionSort - (Tested)
-- [ ] MergeSort
+- [X] MergeSort - (Tested)
 - [ ] QuickSort
 - [ ] HeapSort
 - [ ] RadixSort
@@ -88,7 +88,7 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 
 ### Arrays
 
-- [ ] StaticArray
+- [X] StaticArray - (Tested)
 - [ ] DynamicArray
 
 ### Linked Lists

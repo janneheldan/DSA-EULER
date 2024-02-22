@@ -1,6 +1,6 @@
 package Algorithms.SortingAlgorithms;
 
-public class InsertionSort {
+public class InsertionSort<T extends Comparable<T>> {
 	/*
 	 * Swaps the elements at the given indices
 	 */
@@ -16,7 +16,7 @@ public class InsertionSort {
 	 * @param arr array to be sorted
 	 * @return sorted array
 	 */
-	public <T extends Comparable<T>> T[] sort(T[] arr) {
+	public T[] sort(T[] arr) {
 		for (int i = 1; i < arr.length; i++) {
 			int j = i - 1;	
 			while (j >= 0 && arr[j].compareTo(arr[j + 1]) > 0) {

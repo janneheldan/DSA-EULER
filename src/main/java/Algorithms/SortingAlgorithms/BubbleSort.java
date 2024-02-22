@@ -3,7 +3,7 @@ package Algorithms.SortingAlgorithms;
 /*
  * Bubble sort
  */
-public class BubbleSort {
+public class BubbleSort<T extends Comparable<T>>{
 	/*
 	 * Swaps the elements at the given indices
 	 */
@@ -19,7 +19,7 @@ public class BubbleSort {
 	 * @param arr array to be sorted
 	 * @return sorted array
 	 */
-	public <T extends Comparable<T>> T[] sort(T[] arr) {
+	public T[] sort(T[] arr) {
 		if (arr.length == 0) {
 			return arr;
 		}
