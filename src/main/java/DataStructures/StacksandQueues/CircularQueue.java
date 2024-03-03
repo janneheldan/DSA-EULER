@@ -1,17 +1,18 @@
-package	DataStructures.StacksandQueues;
+package DataStructures.StacksandQueues;
 
 import java.util.NoSuchElementException;
 
-/*
- * GENERIC QUEUE
+/**
+ * GENERIC CIRCULAR QUEUE 
  */
-public class Queue<T> {
+public class CircularQueue <T> {
     private T[] queue;
     private int frontPointer;
     private int rearPointer;
 
+
     @SuppressWarnings("unchecked")
-    public Queue(int size) {
+    public CircularQueue(int size) {
         queue = (T[]) new Object[size];
         frontPointer = -1;
         rearPointer = -1;
@@ -19,12 +20,13 @@ public class Queue<T> {
 
     public void enqueue(T item) {
         if (isFull()) {
-            throw new ArrayStoreException("Queue is full");
+            throw new ArrayStoreException("Queue is full"); 
         }
         if (isEmpty()) {
             frontPointer = 0;
         }
-        queue[++rearPointer] = item;
+        rearPointer = (rearPointer + 1) % queue.length;
+        queue[rearPointer] = item;
     }
 
     public void dequeue() {
@@ -35,7 +37,7 @@ public class Queue<T> {
             frontPointer = -1;
             rearPointer = -1;
         } else {
-            frontPointer++;
+            frontPointer = (frontPointer + 1) % queue.length;
         }
     }
 
@@ -44,7 +46,7 @@ public class Queue<T> {
     }
 
     public boolean isFull() {
-        return rearPointer == queue.length - 1;
+        return (rearPointer + 1) % queue.length == frontPointer; 
     }
 
     public T front() {
@@ -61,3 +63,4 @@ public class Queue<T> {
         return queue[rearPointer];
     }
 }
+

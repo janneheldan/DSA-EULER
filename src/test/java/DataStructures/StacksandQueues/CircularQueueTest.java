@@ -1,13 +1,23 @@
 package DataStructures.StacksandQueues;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-public class QueueTest {
+public class CircularQueueTest {
+
+    private CircularQueue<Integer> queue;
+
+    @BeforeEach
+    public void setUp() {
+        queue = new CircularQueue<>(5);
+    }
 
     @Test
     public void testEnqueue() {
-        Queue<Integer> queue = new Queue<>(5);
         queue.enqueue(1);
         queue.enqueue(2);
         queue.enqueue(3);
@@ -17,7 +27,6 @@ public class QueueTest {
 
     @Test
     public void testDequeue() {
-        Queue<Integer> queue = new Queue<>(5);
         queue.enqueue(1);
         queue.enqueue(2);
         queue.enqueue(3);
@@ -28,7 +37,6 @@ public class QueueTest {
 
     @Test
     public void testIsEmpty() {
-        Queue<Integer> queue = new Queue<>(5);
         assertTrue(queue.isEmpty());
         queue.enqueue(1);
         assertFalse(queue.isEmpty());
@@ -36,17 +44,17 @@ public class QueueTest {
 
     @Test
     public void testIsFull() {
-        Queue<Integer> queue = new Queue<>(3);
         assertFalse(queue.isFull());
         queue.enqueue(1);
         queue.enqueue(2);
         queue.enqueue(3);
+        queue.enqueue(4);
+        queue.enqueue(5);
         assertTrue(queue.isFull());
     }
 
     @Test
     public void testFront() {
-        Queue<Integer> queue = new Queue<>(5);
         assertNull(queue.front());
         queue.enqueue(1);
         assertEquals(1, queue.front());
@@ -54,7 +62,6 @@ public class QueueTest {
 
     @Test
     public void testRear() {
-        Queue<Integer> queue = new Queue<>(5);
         assertNull(queue.rear());
         queue.enqueue(1);
         assertEquals(1, queue.rear());

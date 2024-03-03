@@ -100,7 +100,8 @@ Welcome to the DSA & Euler Challenges repository! Here, I share my implementatio
 ### Stacks and Queues
 
 - [X] Stack - (Tested)
-- [ ] Queue
+- [X] Queue - (Tested)
+- [X] CircularQueue (Tested)
 - [ ] PriorityQueue
 
 ### Trees
